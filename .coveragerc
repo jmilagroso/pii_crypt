@@ -1,5 +1,8 @@
 [run]
 source = .
+omit =
+    */setup.py
 
 [report]
-omit = setup.py
+omit =
+    */setup.py
