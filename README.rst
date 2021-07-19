@@ -9,6 +9,18 @@ Overview
 
 The ``pii_crypt`` was written to help securing sensitive information.
 
+
+Installation
+------------
+
+To download ``pii_crypt``, either fork this github repo
+or simply use Pypi via pip.
+
+.. code:: sh
+
+    $ pip install pii-crypt
+
+
 Usage
 -----
 
