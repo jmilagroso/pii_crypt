@@ -9,6 +9,10 @@ pii\_crypt - PII Crypt
    :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
    :alt: CodeFactor
     
+.. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
+    :target: https://travis-ci.com/jmilagroso/pii_crypt
+
+
 Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 
 
