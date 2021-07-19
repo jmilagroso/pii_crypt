@@ -5,8 +5,8 @@ pii\_crypt - PII Crypt
 .. image:: https://badge.fury.io/py/pii-crypt.svg
     :target: https://badge.fury.io/py/pii-crypt
 
-.. image:: https://coveralls.io/repos/github/jmilagroso/pii_crypt/badge.svg?branch=feature/coveralls
-    :target: https://coveralls.io/github/jmilagroso/pii_crypt?branch=feature/coveralls
+.. image:: https://coveralls.io/repos/github/jmilagroso/pii_crypt/badge.svg?branch=master
+    :target: https://coveralls.io/github/jmilagroso/pii_crypt?branch=master
 
 .. image:: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt/badge
    :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
