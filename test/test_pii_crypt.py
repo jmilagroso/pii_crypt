@@ -122,6 +122,33 @@ class TestPIISecurity(unittest.TestCase):
                 result[1]),
             expected_raw_number)
 
+    def test_128bit_mobile_number_with_zero_prefix_and_is_decimal_should_pass(
+            self):
+
+        test_mobile_number = '09171230000.0'
+
+        expected_code = 'IF6DEdUrLRl+lXJpHu3sSg=='
+        expected_encrypted_number = 'K/uURi3ZioVMuHnWXgNFgA=='
+        expected_raw_code = '0'
+        expected_raw_number = '9171230000'
+
+        # encrypt
+        result = self.pg128bit.anonymize_phone_number(
+            test_mobile_number)
+
+        self.assertEqual(result[0], expected_code)
+        self.assertEqual(result[1], expected_encrypted_number)
+
+        # decrypt
+        self.assertEqual(
+            self.pg128bit.decrypt(
+                result[0]),
+            expected_raw_code)
+        self.assertEqual(
+            self.pg128bit.decrypt(
+                result[1]),
+            expected_raw_number)
+
     def test_256bit_mobile_number_with_prefix_should_pass(self):
 
         test_mobile_number = '+639171230000'
@@ -205,6 +232,33 @@ class TestPIISecurity(unittest.TestCase):
             self):
 
         test_mobile_number = '09171230000'
+
+        expected_code = 'ctz5MT3fQEdKi8UDp6RJkA=='
+        expected_encrypted_number = 'mZ/lGTxiyVRjAv1pjHHSjw=='
+        expected_raw_code = '0'
+        expected_raw_number = '9171230000'
+
+        # encrypt
+        result = self.pg256bit.anonymize_phone_number(
+            test_mobile_number)
+
+        self.assertEqual(result[0], expected_code)
+        self.assertEqual(result[1], expected_encrypted_number)
+
+        # decrypt
+        self.assertEqual(
+            self.pg256bit.decrypt(
+                result[0]),
+            expected_raw_code)
+        self.assertEqual(
+            self.pg256bit.decrypt(
+                result[1]),
+            expected_raw_number)
+
+    def test_256bit_mobile_number_with_zero_prefix_and_is_decimal_should_pass(
+            self):
+
+        test_mobile_number = '09171230000.0'
 
         expected_code = 'ctz5MT3fQEdKi8UDp6RJkA=='
         expected_encrypted_number = 'mZ/lGTxiyVRjAv1pjHHSjw=='
