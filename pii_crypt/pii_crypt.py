@@ -36,16 +36,17 @@ class PIICrypt:
     def anonymize_phone_number(self, phone_number):
         prefix = None
 
+        if phone_number.startswith('0'):
+            prefix = '0'
+            phone_number = phone_number[1:]
+
         if phone_number.endswith('.0'):
             phone_number = '{}'.format(int(float(phone_number)))
 
         if phone_number.startswith('+'):
             phone_number = phone_number[1:]
 
-        if phone_number.startswith('0'):
-            prefix = '0'
-            phone_number = phone_number[1:]
-        else:
+        if prefix is None:
             iterations = [1, 2, 3, 4]
 
             for iteration in iterations:

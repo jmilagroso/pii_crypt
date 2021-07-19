@@ -46,10 +46,9 @@ Unit Tests
 .. code:: sh
 
      ✘ jay@ThinkPad  ~/pii_crypt   master ±  coverage run --source=. -m unittest
-
-    ........
+    ..........
     ----------------------------------------------------------------------
-    Ran 8 tests in 0.036s
+    Ran 10 tests in 0.027s
 
     OK
 
@@ -64,11 +63,11 @@ Code Coverage
     ------------------------------------------------
     pii_crypt/__init__.py            1      0   100%
     pii_crypt/country_codes.py       1      0   100%
-    pii_crypt/pii_crypt.py          36      0   100%
+    pii_crypt/pii_crypt.py          37      0   100%
     test/__init__.py                 0      0   100%
-    test/test_pii_crypt.py          96      0   100%
+    test/test_pii_crypt.py         118      0   100%
     ------------------------------------------------
-    TOTAL                          134      0   100%
+    TOTAL                          157      0   100%
 
 License
 -------
