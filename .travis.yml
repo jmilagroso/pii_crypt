@@ -2,12 +2,10 @@ language: python
 python:
   - "3.6" # current default Python on Travis CI
   - "3.7"
-# command to install dependencies
 install:
-  - pip install coveralls
+  - pip install codecov
   - pip install pycryptodome
-# command to run tests
 script:
   - coverage run -m unittest discover
 after_success:
-  - coveralls
+  - codecov
