@@ -8,3 +8,5 @@ install:
 # command to run tests
 script:
   - python -m unittest
+after_success:
+  - COVERALLS_REPO_TOKEN=47V9lnMrrjmbgXdZszcYYdpvUBelN63uZ coveralls
