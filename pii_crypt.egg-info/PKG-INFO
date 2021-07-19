@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pii-crypt
-Version: 1.0.0
+Version: 1.0.1
 Summary: Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 Home-page: https://github.com/jmilagroso/pii_crypt
 Author: Jay Milagroso
@@ -21,6 +21,11 @@ License-File: LICENSE.txt
 pii\_crypt - PII Crypt
 ===========================================================
 
+
+.. image:: https://badge.fury.io/py/pii-crypt.svg
+    :target: https://badge.fury.io/py/pii-crypt
+    
+    
 Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 
 
@@ -28,6 +33,18 @@ Overview
 --------
 
 The ``pii_crypt`` was written to help securing sensitive information.
+
+
+Installation
+------------
+
+To download ``pii_crypt``, either fork this github repo
+or simply use Pypi via pip.
+
+.. code:: sh
+
+    $ pip install pii-crypt
+
 
 Usage
 -----
@@ -66,10 +83,9 @@ Unit Tests
 .. code:: sh
 
      ✘ jay@ThinkPad  ~/pii_crypt   master ±  coverage run --source=. -m unittest
-
-    ........
+    ..........
     ----------------------------------------------------------------------
-    Ran 8 tests in 0.036s
+    Ran 10 tests in 0.027s
 
     OK
 
@@ -84,11 +100,11 @@ Code Coverage
     ------------------------------------------------
     pii_crypt/__init__.py            1      0   100%
     pii_crypt/country_codes.py       1      0   100%
-    pii_crypt/pii_crypt.py          36      0   100%
+    pii_crypt/pii_crypt.py          37      0   100%
     test/__init__.py                 0      0   100%
-    test/test_pii_crypt.py          96      0   100%
+    test/test_pii_crypt.py         118      0   100%
     ------------------------------------------------
-    TOTAL                          134      0   100%
+    TOTAL                          157      0   100%
 
 License
 -------
