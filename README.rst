@@ -1,7 +1,6 @@
 pii\_crypt - PII Crypt
 ===========================================================
 
-
 .. image:: https://badge.fury.io/py/pii-crypt.svg
     :target: https://badge.fury.io/py/pii-crypt
 
