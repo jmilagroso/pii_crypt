@@ -8,14 +8,20 @@ pii\_crypt - PII Crypt
     :target: https://codecov.io/gh/jmilagroso/pii_crypt
 
 .. image:: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt/badge
-   :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
-   :alt: CodeFactor
+    :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
+    :alt: CodeFactor
     
 .. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
     :target: https://travis-ci.com/jmilagroso/pii_crypt
 
+.. image:: https://img.shields.io/badge/python-3.6-blue.svg
+    :target: https://www.python.org/downloads/release/python-360/
 
-Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
+.. image:: https://img.shields.io/badge/python-3.7-blue.svg
+    :target: https://www.python.org/downloads/release/python-370/
+
+|
+| Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 
 
 Overview
