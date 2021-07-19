@@ -1,6 +1,11 @@
 pii\_crypt - PII Crypt
 ===========================================================
 
+
+.. image:: https://badge.fury.io/py/pii-crypt.svg
+    :target: https://badge.fury.io/py/pii-crypt
+    
+    
 Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 
 
