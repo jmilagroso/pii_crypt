@@ -8,6 +8,8 @@ install:
   - pip install codecov
   - pip install pycryptodome
 script:
+  - snyk auth
   - coverage run -m unittest discover
 after_success:
   - codecov
+  - snyk monitor
