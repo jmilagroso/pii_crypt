@@ -27,7 +27,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v1
         with:
@@ -38,3 +37,6 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v1
+
+      - name: Snyk
+        uses: snyk/actions@0.3.0
