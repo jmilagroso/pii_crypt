@@ -55,7 +55,7 @@ Usage
 
     pc = PIICrypt(secret_128bit_key)
 
-    # Anonymize phone number (split country code prefix and phone number, encryptes separately).
+    # Anonymize phone number (split country code prefix and phone number, encrypts separately).
     # Ignores '+' sign prefix.
     (enc_code, enc_number) = pc.anonymize_phone_number('+639171230000')
 
