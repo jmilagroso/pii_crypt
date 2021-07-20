@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
     name='pii_crypt',
     packages=['pii_crypt'],
-    version='1.0.1',
+    version='1.0.2',
     license='MIT',
     description='Secures Personally Identifiable Information using AES (128/256 bit) key encryption.',
     author='Jay Milagroso',
@@ -13,7 +13,7 @@ setup(
         'PII',
         'AES',
         'Security'],
-    install_requires=['pycryptodome'],
+    install_requires=['pycryptodome==3.10.1'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pii-crypt
-Version: 1.0.1
+Version: 1.0.2
 Summary: Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 Home-page: https://github.com/jmilagroso/pii_crypt
 Author: Jay Milagroso
@@ -21,12 +21,27 @@ License-File: LICENSE.txt
 pii\_crypt - PII Crypt
 ===========================================================
 
-
 .. image:: https://badge.fury.io/py/pii-crypt.svg
     :target: https://badge.fury.io/py/pii-crypt
+
+.. image:: https://codecov.io/gh/jmilagroso/pii_crypt/branch/master/graph/badge.svg?token=W657M2RVO7
+    :target: https://codecov.io/gh/jmilagroso/pii_crypt
+
+.. image:: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt/badge
+    :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
+    :alt: CodeFactor
     
-    
-Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
+.. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
+    :target: https://travis-ci.com/jmilagroso/pii_crypt
+
+.. image:: https://img.shields.io/badge/python-3.6-blue.svg
+    :target: https://www.python.org/downloads/release/python-360/
+
+.. image:: https://img.shields.io/badge/python-3.7-blue.svg
+    :target: https://www.python.org/downloads/release/python-370/
+
+|
+| Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 
 
 Overview
