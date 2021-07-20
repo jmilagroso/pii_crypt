@@ -4,15 +4,15 @@ pii\_crypt - PII Crypt
 .. image:: https://badge.fury.io/py/pii-crypt.svg
     :target: https://badge.fury.io/py/pii-crypt
 
+.. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
+    :target: https://travis-ci.com/jmilagroso/pii_crypt
+
 .. image:: https://codecov.io/gh/jmilagroso/pii_crypt/branch/master/graph/badge.svg?token=W657M2RVO7
     :target: https://codecov.io/gh/jmilagroso/pii_crypt
 
 .. image:: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt/badge
     :target: https://www.codefactor.io/repository/github/jmilagroso/pii_crypt
     :alt: CodeFactor
-    
-.. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
-    :target: https://travis-ci.com/jmilagroso/pii_crypt
 
 .. image:: https://pepy.tech/badge/pii-crypt
    :target: https://pepy.tech/project/pii-crypt
@@ -30,7 +30,7 @@ pii\_crypt - PII Crypt
 Overview
 --------
 
-The ``pii_crypt`` was written to help securing sensitive information.
+The ``pii_crypt`` was written to help secure sensitive information.
 
 
 Installation
