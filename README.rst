@@ -14,6 +14,9 @@ pii\_crypt - PII Crypt
 .. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
     :target: https://travis-ci.com/jmilagroso/pii_crypt
 
+.. image:: https://pepy.tech/badge/pii-crypt
+   :target: https://pepy.tech/project/pii-crypt
+
 .. image:: https://img.shields.io/badge/python-3.6-blue.svg
     :target: https://www.python.org/downloads/release/python-360/
 
