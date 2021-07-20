@@ -1,6 +1,4 @@
 language: python
-env:
-  - SNYK_TOKEN="79d93c6b-254a-4814-9100-c791258154c4"
 python:
   - "3.6" # current default Python on Travis CI
   - "3.7"
