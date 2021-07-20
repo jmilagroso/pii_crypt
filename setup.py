@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
     name='pii_crypt',
     packages=['pii_crypt'],
-    version='1.0.3',
+    version='1.0.4',
     license='MIT',
     description='Secures Personally Identifiable Information using AES (128/256 bit) key encryption.',
     author='Jay Milagroso',
