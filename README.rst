@@ -55,16 +55,6 @@ Usage
 
     pc = PIICrypt(secret_128bit_key)
 
-    # Anonymize phone number (split country code prefix and phone number, encrypts separately).
-    # Ignores '+' sign prefix.
-    (enc_code, enc_number) = pc.anonymize_phone_number('+639171230000')
-
-    print(enc_code)    # XVqtVgFGyFGG4LAsR3OinA==
-    print(enc_number)  # K/uURi3ZioVMuHnWXgNFgA==
-
-    assert pc.decrypt(enc_code)   == '63'         # True
-    assert pc.decrypt(enc_number) == '9171230000' # True
-
     # Encrypt/Decrypt
     encrypted = pc.encrypt('John Doe')
 
@@ -81,9 +71,9 @@ Unit Tests
 .. code:: sh
 
      ✘ jay@ThinkPad  ~/pii_crypt   master ±  coverage run --source=. -m unittest
-    ..........
+    ....
     ----------------------------------------------------------------------
-    Ran 10 tests in 0.027s
+    Ran 4 tests in 0.002s
 
     OK
 
@@ -94,22 +84,20 @@ Code Coverage
 .. code:: sh
 
      ✘ jay@ThinkPad  ~/pii_crypt   master ±  coverage report --omit=setup.py
-    Name                         Stmts   Miss  Cover
-    ------------------------------------------------
-    pii_crypt/__init__.py            1      0   100%
-    pii_crypt/country_codes.py       1      0   100%
-    pii_crypt/pii_crypt.py          37      0   100%
-    test/__init__.py                 0      0   100%
-    test/test_pii_crypt.py         118      0   100%
-    ------------------------------------------------
-    TOTAL                          157      0   100%
+    Name                     Stmts   Miss  Cover
+    --------------------------------------------
+    pii_crypt/__init__.py        1      0   100%
+    pii_crypt/pii_crypt.py      19      0   100%
+    --------------------------------------------
+    TOTAL                       20      0   100%
+
 
 License
 -------
 
 MIT License
 
-Copyright (c) 2021 Jay Milagroso
+Copyright (c) 2021
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
