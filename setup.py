@@ -13,7 +13,7 @@ setup(
         'PII',
         'AES',
         'Security'],
-    install_requires=['pycryptodome==3.10.1'],
+    install_requires=['cryptography==3.4.7'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
