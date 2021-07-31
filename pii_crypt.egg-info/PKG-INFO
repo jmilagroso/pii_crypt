@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pii-crypt
-Version: 1.0.5
+Version: 1.0.6
 Summary: Secures Personally Identifiable Information using AES (128/256 bit) key encryption.
 Home-page: https://github.com/jmilagroso/pii_crypt
 Author: Jay Milagroso
