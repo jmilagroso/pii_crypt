@@ -6,6 +6,12 @@ pii\_crypt - PII Crypt
 
 .. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
     :target: https://travis-ci.com/jmilagroso/pii_crypt
+ 
+.. image:: https://img.shields.io/lgtm/grade/python/g/jmilagroso/pii_crypt.svg?logo=lgtm&logoWidth=18
+    :target: https://lgtm.com/projects/g/jmilagroso/pii_crypt/context:python
+
+.. image:: https://img.shields.io/lgtm/alerts/g/jmilagroso/pii_crypt.svg?logo=lgtm&logoWidth=18
+    :target: https://lgtm.com/projects/g/jmilagroso/pii_crypt/alerts/
 
 .. image:: https://codecov.io/gh/jmilagroso/pii_crypt/branch/master/graph/badge.svg?token=W657M2RVO7
     :target: https://codecov.io/gh/jmilagroso/pii_crypt
