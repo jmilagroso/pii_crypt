@@ -13,7 +13,7 @@ setup(
         'PII',
         'AES',
         'Security'],
-    install_requires=['cryptography==41.0.2'],
+    install_requires=['cryptography==41.0.3'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
