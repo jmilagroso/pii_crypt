@@ -4,9 +4,6 @@ pii\_crypt - PII Crypt
 .. image:: https://badge.fury.io/py/pii-crypt.svg
     :target: https://badge.fury.io/py/pii-crypt
 
-.. image:: https://travis-ci.com/jmilagroso/pii_crypt.svg?branch=master
-    :target: https://travis-ci.com/jmilagroso/pii_crypt
-
 .. image:: https://codecov.io/gh/jmilagroso/pii_crypt/branch/master/graph/badge.svg?token=W657M2RVO7
     :target: https://codecov.io/gh/jmilagroso/pii_crypt
 
