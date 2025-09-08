@@ -14,7 +14,7 @@ setup(
         'AES',
         'Security'],
 
-    install_requires=['cryptography==44.0.3'],
+    install_requires=['cryptography==45.0.7'],
 
     classifiers=[
         'Development Status :: 4 - Beta',
